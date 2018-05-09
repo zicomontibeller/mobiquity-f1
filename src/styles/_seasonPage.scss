@@ -1,0 +1,42 @@
+.season-page{
+  .season-title{
+    position: relative;
+    .btn-season{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      line-height: 2rem;
+      font-size: 1.2rem;
+      &-prev{
+        left: 0;
+      }
+      &-next{
+        right: 0;
+      }
+    }    
+  }
+
+  .circuits-winners-grid{
+    &-item{
+      hr{
+        border-color: $gray-400;
+      }
+      .hr-text{
+        color: $gray-700;
+        background-color: $body-bg;
+        width: 100px;
+        margin: 0 auto 1rem;
+        text-align: center;
+        letter-spacing: 0.1rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .btn-show-as-grid{
+    color: $primary;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@import './variables';
+@import './bootstrap';
+
+@import './header';
+@import './seasonsList';
+@import './seasonPage';
+@import './driverGridItem';
+@import './driverList';
+@import './loading';
+
+.main-section{
+  padding-top: 100px;
+}
+
+.main-title{
+  border-bottom: 3px solid $primary;
+  float: left;
+  padding-bottom: 4px;
+  padding-right: 40px;
+}
+
+.btn-link:hover{
+  cursor: pointer;
+}

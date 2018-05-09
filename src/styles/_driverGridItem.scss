@@ -1,0 +1,15 @@
+.standing-grid-item{
+  a{
+    color: inherit;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+.driver-grid-item{
+  .driver-picture{
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

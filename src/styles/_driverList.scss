@@ -1,0 +1,11 @@
+.circuits-winners-list{
+  .round-winner{
+    background-color: $yellow;
+    td:first-child{
+      background-color: $body-bg;
+      background-repeat: no-repeat;
+      background-size: 56px;
+      background-position: 0 bottom;
+    }
+  }
+}
