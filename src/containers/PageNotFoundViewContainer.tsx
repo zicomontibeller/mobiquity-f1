@@ -9,7 +9,7 @@ class PageNotFoundViewContainer extends React.Component<{}, {}> {
           <div className="d-flex w-100 mb-0">
             <h5 className="main-title">Page not found</h5>
           </div>
-          <p className="lead">Something went wrong, perhaps some connection issue, try select the year again <Link to="/">here</Link>.</p>
+          <p className="lead">Something went wrong, perhaps some connection issue, try to select the year again <Link to="/">here</Link>.</p>
         </div>
       </div>
     );

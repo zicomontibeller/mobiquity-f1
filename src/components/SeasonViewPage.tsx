@@ -38,7 +38,7 @@ export class SeasonViewPage extends React.Component<SeasonViewProps, {}> {
           <div className="d-flex w-100 mb-0">
             <h5 className="main-title">Season not found</h5>
           </div>
-          <p className="lead">Something went wrong, maybe the season selected is not on the requested years range, or perhaps some connection issue, try select the year again <Link to="/">here</Link>.</p>
+          <p className="lead">Something went wrong, maybe the season selected is not on the requested years range, or perhaps some connection issue, try to select the year again <Link to="/">here</Link>.</p>
         </div>
       )
     }
