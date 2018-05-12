@@ -40,9 +40,12 @@
 }
 .driver-grid-item{
   .driver-picture{
-    min-height: 200px;
+    height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
+    @include media-breakpoint-down(sm){
+      height: 50vw;
+    }
   }
 }
 
