@@ -15,7 +15,7 @@ const defaultInitialFetchResults = {
 
 export const initialState: AppState = {
   season: "",
-  winners: {...defaultInitialFetchResults, showAsGrid: false },
+  winners: {...defaultInitialFetchResults, showAsGrid: true },
   standing: defaultInitialFetchResults
 }
 
