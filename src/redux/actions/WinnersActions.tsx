@@ -45,7 +45,6 @@ export const WinnersActionCreators = {
         })
         .then((response) => response.json())
         .then((jsonResponse) => {
-          console.log(jsonResponse)
           const items = jsonResponse.MRData.RaceTable.Races.map((item: any) => {
             const result = item.Results[0];
             return{
