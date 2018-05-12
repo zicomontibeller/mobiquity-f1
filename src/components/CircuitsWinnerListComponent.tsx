@@ -79,7 +79,7 @@ class CircuitsWinnerList extends React.Component<CircuitsWinnerProps, {}> {
                       <td>{cirWin.circuit.raceName}</td>
                       <td>{ `${cirWin.circuit.locality} - ${cirWin.circuit.country}` }</td>
                       <td>{ `${cirWin.driver.givenName} ${cirWin.driver.familyName}` }</td>
-                      <td>{cirWin.driver.nationality} <span title={cirWin.driver.nationality} className={`flag-icon flag-icon-${cirWin.driver.nationalityShort}`}/></td>
+                      <td className="text-nowrap">{cirWin.driver.nationality} <span title={cirWin.driver.nationality} className={`flag-icon flag-icon-${cirWin.driver.nationalityShort}`}/></td>
                       <td>{ cirWin.driver.constructorName }</td>
                     </tr>
                   )
