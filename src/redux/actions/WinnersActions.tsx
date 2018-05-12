@@ -1,7 +1,7 @@
 import { DriversModel } from '../../models/DriversModel';
 import { Dispatch } from 'redux';
 import { AppState } from '../AppState';
-import { endpoint } from '../../util';
+import { endpoint, shortifyNation } from '../../util';
 
 export const WinnersActionCreators = {
   WINNERS_ERROR: (hasError: boolean) => {
@@ -63,6 +63,8 @@ export const WinnersActionCreators = {
                 driverNumber: result.Driver.permanentNumber,
                 givenName: result.Driver.givenName,
                 familyName: result.Driver.familyName,
+                nationality: result.Driver.nationality,
+                nationalityShort: shortifyNation(result.Driver.nationality),
                 constructorId: result.Constructor.constructorId,
                 constructorName: result.Constructor.name,
               }

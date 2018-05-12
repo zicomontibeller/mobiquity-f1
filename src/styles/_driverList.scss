@@ -1,11 +1,18 @@
 .circuits-winners-list{
-  .round-winner{
+  .season-winner{
     background-color: $yellow;
-    td:first-child{
-      background-color: $body-bg;
-      background-repeat: no-repeat;
-      background-size: 56px;
-      background-position: 0 bottom;
-    }
+  }
+}
+.season-winner-legend{
+  &:after{
+    content: '';
+    display: inline-block;
+    border: 1px solid $gray-700;
+    background-color: $yellow;
+    width: 14px;
+    height: 14px;
+    margin-left: 6px;
+    margin-bottom: -2px;
+
   }
 }

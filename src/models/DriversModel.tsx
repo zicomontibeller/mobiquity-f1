@@ -8,6 +8,8 @@ export interface DriversModel{
   constructorId: string;
   constructorName: string;
   round: number;
+  nationality: string;
+  nationalityShort: string;
 }
 
 export interface CircuitsDriversModel{

@@ -1,7 +1,7 @@
 import { DriversModel } from '../../models/DriversModel';
 import { Dispatch } from 'redux';
 import { AppState } from '../AppState';
-import { endpoint, getFirstSeason, seasons } from '../../util';
+import { endpoint, getFirstSeason, seasons, shortifyNation } from '../../util';
 
 export const StandingActionCreators = {
   STANDING_ERROR: (hasError: boolean) => {
@@ -49,6 +49,8 @@ export const StandingActionCreators = {
                 driverCode: driverResult.Driver.code,
                 givenName: driverResult.Driver.givenName,
                 familyName: driverResult.Driver.familyName,
+                nationality: driverResult.Driver.nationality,
+                nationalityShort: shortifyNation(driverResult.Driver.nationality),
                 constructorId: driverResult.Constructors[0].constructorId,
                 constructorName: driverResult.Constructors[0].name,
                 round: parseInt(item.round,10)
