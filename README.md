@@ -1,10 +1,8 @@
-## Mobiquity F1 App
-
-This app was developed to attend the [Mobiquity Front-end Assignment 2018](https://github.com/zicoNextt/mobiquity-f1/blob/master/Assignment2018.pdf). It doesn't intend to be used to any commercial purpose.
+## F1 App
 
 It shows the F1 world champions from 2005 until 2015 and the race's winner for each year, highlighting the race's winner when the winner has been the world champion in the same season.
 
-See app running [here](https://ziconextt.github.io/mobiquity-f1).
+See app running [here](https://zicomontibeller.github.io/mobiquity-f1).
 
 ## Development proccess
 
